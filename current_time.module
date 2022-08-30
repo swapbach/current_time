@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * Contains current_time.module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function current_time_theme() {
+  return [
+    'current_time_block' => [
+      'variables' => [
+        'city' => NULL,
+        'country' => NULL,
+        'currentTime' => NULL,
+      ],
+      'template' => 'block--current-time-block-content',
+    ],
+  ];
+}

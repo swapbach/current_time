@@ -1,0 +1,4 @@
+<h2>My Custom Block</h2>
+<div>
+<h3> {{ city }}, {{ country }} : {{ currentTime }}</h3>
+</div>

@@ -1,0 +1,5 @@
+name: Current Time
+description: Get the Current Time based on the selected timezone.
+type: module
+package: Custom
+core_version_requirement: ^8.8.0 || ^9.0

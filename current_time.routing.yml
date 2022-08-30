@@ -1,0 +1,9 @@
+current_time.admin_config_form:
+  path: '/admin/config/regional/set-timezone'
+  defaults:
+    _form: 'Drupal\current_time\Form\TimezoneForm'
+    _title: 'Set Timezone Form'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: TRUE
